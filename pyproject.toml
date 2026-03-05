@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "practical01"
+version = "0.1.0"
+package-mode = false
+description = "Practical guide to implementing a web application programming interface (API) using Flask."
+authors = ["Guanyu Yao <s4916521@uq.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+flask = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
